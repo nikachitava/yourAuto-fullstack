@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import { layoutProps } from "../Types/layoutProps";
 
 const DashboardLayout: React.FC<layoutProps> = ({ children }) => {
